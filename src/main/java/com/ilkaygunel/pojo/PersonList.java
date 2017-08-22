@@ -13,4 +13,8 @@ public class PersonList {
 	public void addPerson(Person p) {
 		list.add(p);
 	}
+	
+	public List<Person> getList() {
+		return list;
+	}
 }

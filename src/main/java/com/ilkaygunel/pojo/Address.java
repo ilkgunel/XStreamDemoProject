@@ -29,4 +29,9 @@ public class Address {
 		this.district = district;
 	}
 
+	@Override
+	public String toString() {
+		return district + " " + city;
+	}
+
 }

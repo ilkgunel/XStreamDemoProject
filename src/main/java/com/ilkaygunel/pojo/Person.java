@@ -4,12 +4,12 @@ public class Person {
 	private String name;
 	private String surname;
 	private Address address;
-	
+
 	public Person() {
-		
+
 	}
-	
-	public Person(String name,String surname,Address address) {
+
+	public Person(String name, String surname, Address address) {
 		this.name = name;
 		this.surname = surname;
 		this.address = address;
@@ -37,6 +37,11 @@ public class Person {
 
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return name + " " + surname + " " + address;
 	}
 
 }
